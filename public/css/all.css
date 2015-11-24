@@ -8325,7 +8325,15 @@ button.close {
     display: none!important;
   }
 }
+.title-heading {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 125px;
+}
 
+span.acht {
+  color: #6D5565;
+}
 .select2-container {
   box-sizing: border-box;
   display: inline-block;

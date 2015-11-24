@@ -13,7 +13,7 @@
 
 
 //  a Route to Home page  = login page = PageController@index
-
+Route::get('login','PageController@login');
 
 
 // a route to welkom page = PageController@welkom
