@@ -1,9 +1,36 @@
-.title-heading {
+.title-heading-login {
   text-align: center;
   font-size: 80px;
+  margin-top: 125px;
   margin-bottom: 125px;
+  color: #CCCCCC;
 }
 
 span.acht {
   color: #6D5565;
+}
+
+.panel-login {
+  border: #d6b2be 1px solid;
+}
+
+.panel-heading-login {
+  background-color: #6D5565;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #CCCCCC;
+  font-size: 24px;
+}
+
+.btn-login {
+  background-color: #6D5565;
+  border-color: #6D5565;
+  color: #CCCCCC;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+body {
+  background-color: #2d2d2d;
 }

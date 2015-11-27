@@ -8,7 +8,8 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="title-heading">Kr<span class="acht">8</span>gtig</h1>
+            <!-- images in public map zetten-->
+            {!! Html::image('images/kr8tig.png', 'logo', array('class' => 'logo')) !!}
             @yield('content')
         </div>
 
