@@ -8327,10 +8327,8 @@ button.close {
 }
 .title-heading-login {
   text-align: center;
-  font-size: 80px;
-  margin-top: 125px;
-  margin-bottom: 125px;
-  color: #CCCCCC;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 span.acht {
@@ -8346,7 +8344,7 @@ span.acht {
   height: 50px;
   text-align: center;
   line-height: 50px;
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 24px;
 }
 

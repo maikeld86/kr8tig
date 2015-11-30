@@ -1,10 +1,8 @@
 // de css voor de login pagina komt hier
 .title-heading-login{
-  //text-align: center;
-  //font-size: 80px;
-  margin-top: 125px;
-  margin-bottom: 125px;
-  //color:$main-font_Color;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 span.acht {
@@ -12,21 +10,21 @@ span.acht {
 }
 
 .panel-login{
-  border: $main-panel_Border_Color 1px solid;
+  border: #d6b2be 1px solid;
 }
 .panel-heading-login{
-  background-color: $background-color_Panel;
+  background-color: #6D5565;
   height: 50px;
   text-align: center;
   line-height: 50px;
-  color: $main-font_Color;
+  color: #cccccc;
   font-size: 24px;
 }
 
 .btn-login{
-  background-color: $background-color_Panel_Btn;
-  border-color: #$background-color_Panel_Btn_border;
-  color: $main-font_Color;
+  background-color: #6D5565;
+  border-color: #6D5565;
+  color: #CCCCCC;
   width: 100%;
   margin-bottom: 25px;
 }

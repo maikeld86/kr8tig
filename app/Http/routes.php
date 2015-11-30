@@ -15,6 +15,17 @@
 //  a Route to Home page  = login page = PageController@index
 Route::get('login','PageController@login');
 
+//a Route to the register page
+Route::get('register','PageController@register');
+
+//a Route to the register page
+Route::get('reset','PageController@reset');
+
+
+
+
+// passwoord reset link sturen pagina
+Route::get('password','PageController@password');
 
 // a route to welkom page = PageController@welkom
 Route::get('welkom','PageController@welkom');

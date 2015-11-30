@@ -18,6 +18,26 @@ class PageController extends Controller
     {
         return view('auth.login');
     }
+
+    /**
+     * Registeert een gebruiker van Kr8tig
+     */
+    public function register()
+    {
+        return view('auth.register');
+    }
+
+    public function reset()
+    {
+        return view('auth.reset');
+    }
+
+
+    public function password()
+    {
+        return view('auth.password');
+    }
+
     /**
      * stuurt je naar de welkom screen
      *

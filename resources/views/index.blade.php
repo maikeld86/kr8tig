@@ -9,7 +9,10 @@
     <body>
         <div class="container">
             <!-- images in public map zetten-->
-            {!! Html::image('images/kr8tig.png', 'logo', array('class' => 'logo')) !!}
+            <div class="title-heading-login">
+                {!! Html::image('images/kr8tig.png', 'logo', array('class' => 'logo')) !!}
+            </div>
+
             @yield('content')
         </div>
 
